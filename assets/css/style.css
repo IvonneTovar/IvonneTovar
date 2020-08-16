@@ -1,0 +1,274 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+.perfil, .trabajos {
+    background-color: #F4F2F2;
+}
+.trabajos {
+    padding-bottom: 8%;
+}
+
+.imgTamano {
+    width: 140px;
+    margin-left: -15px;
+}
+.lila {
+    background-color: #736AB9;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .fotoIvonne {
+        display: block;
+        width: 370px;
+        margin: auto;
+       
+    }
+    .hello {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .lineaperfil {
+        height: 1px;
+        background-color: #454545;
+        width: 240px;
+    }
+    .im {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .profesion {
+        color: #736AB9;
+        font-size: 27px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .description {
+        font-size: 14px;
+        text-align: center;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .quincea {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .size {
+        width: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .fotoIvonne {
+        padding-top: 110px;
+        display: block;
+        width: 370px;
+        margin: auto;
+    }
+    .hello {
+        padding-top: 60px;
+        font-size: 35px;
+        text-align: left;
+        font-weight: 800;
+    }
+    .lineaperfil {
+        height: 2px;
+        background-color: #454545;
+        width: 200px;
+        margin-left: 0%;
+    }
+    .im {
+        text-align: left;
+        font-size: 23px;
+        font-weight: 800;
+
+    }
+    .profesion {
+        color: #736AB9;
+        font-size: 25px;
+        text-align: left;
+        font-weight: 800;
+    }
+    .description {
+        font-size: 11px;
+        text-align: left;
+    }
+    .quincea {
+        padding-top: 15px;
+    }  
+    .alinear {
+        float:left;
+    }
+    .botonstory {
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+    .size {
+        width: 20%;
+    }
+    
+
+}
+
+@media (min-width: 992px) {
+    .fotoIvonne {
+        padding-top: 40px;
+        display: block;
+        width: 480px;
+        margin: auto;
+    }
+    .hello {
+        padding-top: 60px;
+        font-size: 35px;
+        text-align: left;
+        font-weight: 800;
+    }
+    .lineaperfil {
+        height: 2px;
+        background-color: #454545;
+        width: 200px;
+        margin-left: 0%;
+    }
+    .im {
+        text-align: left;
+        font-size: 23px;
+        font-weight: 800;
+
+    }
+    .profesion {
+        color: #736AB9;
+        font-size: 25px;
+        text-align: left;
+        font-weight: 800;
+    }
+    .description {
+        font-size: 11px;
+        text-align: left;
+        margin-right: 70px;
+    }
+    .quincea {
+        padding-top: 15px;
+    }  
+    .alinear {
+        float:left;
+    }
+    .botonstory {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .size {
+        width: 10%;
+    }
+}
+.ano {
+    font-size: 70px;
+    color: #736AB9;
+    font-weight: 600;
+}
+.year {
+    font-size: 14px;
+    color: #736AB9;
+    text-align: left;
+}
+.botonstory {
+    background-color: #F4F2F2;
+    border: 1px solid #736AB9;
+    color: #736AB9;
+    vertical-align: bottom;
+}
+.botonstory:hover, .botonstory:active {
+    color: #ffffff;
+    background-color: #736AB9;
+    border: 1px solid #F4F2F2;
+}
+.triangulog {
+    display: block;
+    margin: auto;
+    width: 120px;
+}
+.titulo {
+    font-size: 35px;
+    color: #736AB9;
+    font-weight: 800;
+}
+.experiencia {
+    width: 170px;
+}
+.cargo {
+    font-size: 18px;
+}
+.anos {
+    font-size: 11px;
+}
+.moreskills {
+    font-size: 12px;
+}
+.download {
+    background-color: #ffffff;
+    border: 1px solid #736AB9;
+    color: #736AB9;
+    vertical-align: bottom;
+}
+.download:hover, .download:active {
+    color: #ffffff;
+    background-color: #736AB9;
+    border: 1px solid #F4F2F2;
+}
+.card-title {
+    font-weight: 600;
+}
+.cardA {
+    border: none;
+    background-color: #FEC456;
+}
+.cardB {
+    border: none;
+    background-color: #7AD3C6;
+}
+.cardC {
+    border: none;
+    background-color: #736AB9;
+}
+.vermas {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+}
+.vermas:hover {
+    color: #8d8d8d;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+}
+
+.card-title, .card-text {
+    color: #191919;
+}
+.card-title {
+    margin-bottom: 3px;
+    margin-top: -6px;
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+.contact {
+    background-color: #EFBCB5;
+
+}
+.fondofooter {
+    background-color: #736AB9;
+}
+.lineafooter {
+    background-color: #ffffff;
+    width: 15%;
+}
+.derechos {
+    font-size: 9px;
+}
+.popover {
+    font-size: 9px;
+  }
