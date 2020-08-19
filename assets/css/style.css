@@ -18,11 +18,10 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-    .fotoIvonne {
+    .fotoIvonne, .fotoIvonne2 {
         display: block;
         width: 370px;
-        margin: auto;
-       
+        margin: auto;  
     }
     .hello {
         font-size: 40px;
@@ -33,7 +32,7 @@ body {
         height: 1px;
         background-color: #454545;
         width: 240px;
-    }
+    } 
     .im {
         font-size: 25px;
         text-align: center;
@@ -46,7 +45,7 @@ body {
         font-weight: 800;
     }
     .description {
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         padding-right: 25px;
         padding-left: 25px;
@@ -58,6 +57,17 @@ body {
     .size {
         width: 35%;
     }
+    .story {
+        padding-top: 70px;
+    }
+    .thanks {
+        font-weight: 500;
+        color: #736AB9;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }   
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -65,6 +75,12 @@ body {
         padding-top: 110px;
         display: block;
         width: 370px;
+        margin: auto;
+    }
+    .fotoIvonne2 {
+        padding-top: 15px;
+        display: block;
+        width: 380px;
         margin: auto;
     }
     .hello {
@@ -83,7 +99,6 @@ body {
         text-align: left;
         font-size: 23px;
         font-weight: 800;
-
     }
     .profesion {
         color: #736AB9;
@@ -108,8 +123,18 @@ body {
     .size {
         width: 20%;
     }
-    
-
+    .story {
+        padding-top: 100px;
+    }
+    .thanks {
+        font-weight: 500;
+        color: #736AB9;
+        font-size: 22px;
+        text-align: left;
+    }
+    .botonprojects {
+        text-align: left;
+    }
 }
 
 @media (min-width: 992px) {
@@ -117,6 +142,11 @@ body {
         padding-top: 40px;
         display: block;
         width: 480px;
+        margin: auto;
+    }
+    .fotoIvonne2 {
+        display: block;
+        width: 400px;
         margin: auto;
     }
     .hello {
@@ -160,6 +190,19 @@ body {
     }
     .size {
         width: 10%;
+    }
+    .story {
+        padding-top: 105px;
+        margin-left: 10%;
+    }
+    .thanks {
+        font-weight: 500;
+        color: #736AB9;
+        font-size: 22px;
+        text-align: left;
+        margin-right: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 .ano {
@@ -275,4 +318,17 @@ body {
 
 .i {
     color: #ffffff;
+}
+.botonprojects {
+    background-color: #ffffff;
+    border: 1px solid #736AB9;
+    color: #736AB9;
+    vertical-align: bottom; 
+
+}
+.botonprojects:hover, .botonprojects:active {
+    color: #ffffff;
+    background-color: #736AB9;
+    border: 1px solid #ffffff;
+
 }
